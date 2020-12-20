@@ -1,0 +1,12 @@
+/home/goli/Desktop/Angular/angular_models/bin/Debug/net5.0/angular_models.deps.json
+/home/goli/Desktop/Angular/angular_models/bin/Debug/net5.0/angular_models.dll
+/home/goli/Desktop/Angular/angular_models/bin/Debug/net5.0/ref/angular_models.dll
+/home/goli/Desktop/Angular/angular_models/bin/Debug/net5.0/angular_models.pdb
+/home/goli/Desktop/Angular/angular_models/obj/Debug/net5.0/angular_models.csprojAssemblyReference.cache
+/home/goli/Desktop/Angular/angular_models/obj/Debug/net5.0/angular_models.GeneratedMSBuildEditorConfig.editorconfig
+/home/goli/Desktop/Angular/angular_models/obj/Debug/net5.0/angular_models.AssemblyInfoInputs.cache
+/home/goli/Desktop/Angular/angular_models/obj/Debug/net5.0/angular_models.AssemblyInfo.cs
+/home/goli/Desktop/Angular/angular_models/obj/Debug/net5.0/angular_models.csproj.CoreCompileInputs.cache
+/home/goli/Desktop/Angular/angular_models/obj/Debug/net5.0/angular_models.dll
+/home/goli/Desktop/Angular/angular_models/obj/Debug/net5.0/ref/angular_models.dll
+/home/goli/Desktop/Angular/angular_models/obj/Debug/net5.0/angular_models.pdb
