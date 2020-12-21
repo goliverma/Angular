@@ -9,7 +9,7 @@ export class PaymentDetailService {
 
   constructor(private http : HttpClient) { }
 
-  readonly baseUrl = 'http://localhost:5000/api/paymentdetail'
+  readonly baseUrl = 'https://localhost:5001/api/paymentdetail'
 
   formdata : PaymentDetail = new PaymentDetail();
   list : PaymentDetail[];
@@ -20,6 +20,10 @@ export class PaymentDetailService {
 
   putPaymentDetails(){
     return this.http.put(`${this.baseUrl}/${this.formdata.paymentDetailId}`, this.formdata);
+  }
+
+  deletePaymentDetail(id : number){
+    return this.http.delete(`${this.baseUrl}/${id}`);
   }
 
   refreshList(){

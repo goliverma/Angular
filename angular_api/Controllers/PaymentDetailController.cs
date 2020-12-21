@@ -22,7 +22,7 @@ namespace angular_api.Controllers
         {
             return Ok(await context.GetsPayment());
         }
-        [HttpGet("(id:int)")]
+        [HttpGet("{id:int}")]
         public async Task<ActionResult<PaymentDetail>> GetPaymentDetail(int id)
         {
             var payment = await context.GetPayment(id);
@@ -38,7 +38,7 @@ namespace angular_api.Controllers
             var result = await context.PostPayment(payment);
             return result;
         }
-        [HttpPut("(id:int)")]
+        [HttpPut("{id:int}")]
         public async Task<ActionResult<PaymentDetail>> PutPaymentDetail(int id, PaymentDetail payment)
         {
             if(id != payment.PaymentDetailId)
@@ -48,7 +48,7 @@ namespace angular_api.Controllers
             var result = await context.UpdatePayment(payment);
             return result;
         }
-        [HttpDelete("(id:int)")]
+        [HttpDelete("{id:int}")]
         public async Task<ActionResult<PaymentDetail>> DeletePaymentDetail(int id)
         {
             var result = await context.GetPayment(id);
